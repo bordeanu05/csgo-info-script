@@ -115,6 +115,9 @@ def main():
                 STEAM_ID = data
                 break
         
+        if STEAM_ID is None:
+            continue
+        
         try:
             current_player_data = get_data_from_csgostats(STEAM_ID)
             player_name = "Name: " + str(current_player_data['player_name'])
