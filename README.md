@@ -11,7 +11,7 @@ git clone https://github.com/bordeanu05/csgo-info-script.git
 cd csgo-info-script
 pip install -r requirements.txt
 ```
-Go inside main.py in the ```get_faceit_data``` and ```get_csgo_hours``` functions and asign ```api_key = "API_KEY"``` to your own API keys
+Open ```api_keys.py``` and put your own API keys there
 
 * Grab your Faceit API Key [here](https://developers.faceit.com/)
 * Grab your Steam Web API Key [here](https://steamcommunity.com/dev/apikey)
